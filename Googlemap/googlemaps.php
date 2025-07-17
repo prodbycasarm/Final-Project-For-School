@@ -80,6 +80,6 @@ function setMarkers(map) {
 }
 </script>
 
-<script async defer  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCt_55rjBcDIiyP7m7Ln3sjD4T2Kxn3wbg&callback=initMap"></script>
+<script async defer  src="https://maps.googleapis.com/maps/api/js?key="></script>
 </body>
 </html>
