@@ -7,8 +7,8 @@ if (basename(__FILE__) == basename($_SERVER['PHP_SELF'])) {
 
 
 
-	  $con = mysqli_connect("localhost","2229993","ookahzucheehahp");
-	  mysqli_select_db($con,"casarm_stages2024");
+	  $con = mysqli_connect("","","");
+	  mysqli_select_db($con,"");
 
 ?>
 <?php
