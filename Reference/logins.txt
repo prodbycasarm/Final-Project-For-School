@@ -1,0 +1,19 @@
+acces_etu
+
+Utilisateur: 0000001
+
+Mot de passe: 0000001
+------------------------------
+
+acces_employeurs
+
+Utilisateur: 0001
+
+Mot de passe: 0001
+-----------------------------------
+
+acces_adm
+
+Utilisateur: 00001
+
+Mot de passe: super01

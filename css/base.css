@@ -1,0 +1,419 @@
+/*CSS de base*/
+
+*{
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+table{
+	border-collapse:collapse;
+}
+
+html {
+	height:100%;
+	
+	}
+	
+body { 
+	background-color:#F6F6F6; 
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	min-width:1130px;
+	min-height:700px;
+
+
+}
+	  
+p {
+	margin-bottom:15px;
+}
+	  
+.container {
+	background-color:#FFF;
+	margin-top:100px;
+	max-width:1000px;
+	min-height:700px;
+
+}
+
+a.lien{
+	padding:5px;
+	width:100%;
+	background-color:#AEAEAE;
+	color:white;
+	transition:all 0.3s;
+}
+
+a.lien:hover {
+	color:black;
+	text-decoration:none;
+}
+.pres{
+	max-width:750px;
+	margin-left:30px;
+	text-align:justify;
+}
+	  
+
+
+
+	  
+	  
+      /*~~~~~~~~~~~~*/
+	 /* Navigation */
+	/*~~~~~~~~~~~~*/
+	
+	 header.entete{
+		border-bottom:2px rgba(0,0,0,0.5) ridge;
+		background-color:#FFF;
+		height:50px;
+		}
+		
+	 nav.entete ul li{
+		display:inline;
+		padding-right:15px;
+		margin:0px;
+		font-size:1.3em;
+	 }
+	 
+	 nav.entete a {
+		color:#AEAEAE;
+		transition:all 0.4s;
+	  }
+	  
+	  nav.entete a:hover {
+		color:black;
+		text-decoration:none;
+	  }
+	  
+	 div.entete, nav.entete{
+		float:left;
+	 }
+	 
+	 h1.entete{
+		font-size:1.3em;
+		font-weight:bold;
+		text-transform:uppercase;
+		margin:0px;
+		padding-left:10px;
+		padding-top:16px;
+		position:absolute;
+		left:0px;
+	 }
+	 nav.entete{
+		position:absolute;
+		right:0px;
+		top:15px;
+		padding-right:10px;
+	 }
+	 nav.navi ul li{
+		display:inline;
+		margin:0px;
+		
+		
+		
+	 }
+	 nav.navi ul li a{
+		padding:10px;
+		color:black;
+		background-color:#FFF;
+		transition:all 0.4s;
+		font-size:1.5em;
+		font-weight: 500;		
+		text-transform: uppercase;
+		
+	 }
+	 nav.navi ul li a:hover{
+		background-color:#FF8C53;
+		color:#FFF;
+		text-decoration:none;
+	 }
+	 
+	 .active_nav{
+		background-color:#FF8C53 !important;
+		color:#FFF !important;
+		text-decoration:none;
+	 }
+
+	nav.navi{
+		margin-top:-47px;
+		margin-left:-40px;
+		
+	}
+	 
+	 
+	  
+	  /* MOBILE : ADAPT : font-size:1.8em; */
+	  
+	  nav.main ul li * {
+		color:white;
+		position:absolute;
+		bottom:0; right: 0; top:0; left:0;
+		
+		display:block;
+		padding-left:8px;
+		padding-right:8px;
+		padding-top:15px;
+	  }
+	  
+	  
+	  
+	  nav.main ul li header, nav.main ul li footer {
+		font-size: 0.8em;	  
+	  }
+	  
+		/*IcÃ´nes de menu*/
+		
+		div.last {
+			display:none;
+			position:fixed;
+			bottom:70px;
+			padding-left:50px;
+			color:white;
+			text-align:center;
+			font-size:2em;
+			
+		}
+		
+		div.last a{
+			color:white;
+		}
+	  
+		
+	  
+	  
+	  /*~~~~~~~~~*/
+	 /* Contenu */
+	/*~~~~~~~~~*/
+	
+	  section.main {
+		font-family: "Open sans", sans-serif;
+		padding-top: 30px;
+		padding-left:1.5%;
+		padding-right:1.5%;
+		padding-bottom:50px;
+		margin-top:100px;
+		position:relative;
+		margin:auto;
+		min-height:700px;
+	  }
+	  div.main{
+		padding-top:5px;
+	  }
+	
+
+		/*Header*/
+	  section.main header, section.main h1 {
+		margin:0;
+		font-family: "Open sans", sans-serif;
+		padding-top:5px;
+		font-size:1.5em;
+		
+	  }
+	  
+	  h2 {
+		font-family: "Open sans", sans-serif;
+		font-weight:bold;
+		font-size:1.3em;
+		
+		
+	  }
+	  
+	  h3 {
+		font-family: "Open sans", sans-serif;
+		font-size:1.1em;
+		
+	  }
+	  
+	  
+
+
+	  img.farRight {
+		position:absolute;
+		right:10px;
+		bottom:10px;
+	  }
+	  
+	  .create{
+		width:950px;
+		text-align:right;
+		font-weight:bold;
+		padding:15px;
+		border-bottom:1px solid black;
+	  }
+	  
+	
+	  
+	  /* Medium */
+	@media (max-width: 1215px)
+	{	
+	  section.main header h1 {
+		font-size:1.5em;
+		font-weight:500;
+		line-height:1.1;
+		font-family: "Open sans", sans-serif !important;
+	  }
+	}
+	  /* Small */
+	@media (max-width: 1009px)
+	{	
+	  section.main header h1 {
+		font-size:1.3em;
+	  }
+	  
+	  section.main h2 {
+		font-size:1em;
+	  }
+	}
+	  
+		/*Milieu*/
+		
+	  div.emphase {
+		background-color:white;
+		text-align:justify;
+		padding:10px 20px;
+		width:auto;
+	  }
+	
+	  
+	.decoration-left {
+		background:url('../img/tribal1a.png') right -3px top repeat-y;
+		position:absolute;
+		top:0;
+		bottom:0;
+		right:0;
+		width:4.5%;
+		background-size:contain;
+
+	
+	}
+	
+	.decoration-right {
+		background:url('../img/tribal1b.png') left -3px top repeat-y;
+		position:absolute;
+		top:0;
+		bottom:0;
+		left:0;
+		width:4.5%;
+		background-size:contain;
+	
+	}
+	  
+	  section.contenu table  {
+		width:100%;	  
+		margin-top:30px;
+
+	  }
+	  
+	  section.contenu table  td, section.contenu table  th {
+		border:ridge 1px #ccc;
+	  } 
+	  
+
+	  section.contenu table thead th {
+		text-align:center;
+		font-size:1.3em;
+		font-weight:normal;
+	  }
+	  
+	  
+	  section.contenu table td {
+		padding: 12px;
+	  }
+	  
+	  section.contenu table td.action {
+		text-align:center;
+	  }
+	  
+	  section.contenu table th.statut, section.contenu table td.statut {
+		font-size:1.1em;
+		text-align:center;
+	  }
+	  
+	  td.statut img{
+		float:left;
+	  }
+	  
+	  td.statut a{
+		float:left;
+		margin:0 5px;
+	  }
+	  td.statut a img{
+		float:left;
+		padding-left:2px;
+		padding-right:2px;
+	  }
+	  thead{
+		margin:0px !important;
+		padding:0px !important;
+	  }
+	 table.emp{
+		width:850px !important;
+	 }
+	 
+	  thead.emp tr th.statut{
+	  width:inherit !important;
+	  }
+	
+	 #fld13{
+		margin-top:-10px;
+	 }
+	
+	 #fld14{
+		margin-top:15px;
+	 }
+	  
+	  #gestion th.statut{
+		width:150px
+	  }
+	  section.contenu table td.numero {
+		width:10px;
+		font-size:1.1em;
+		text-align:center;
+		padding-left:0;
+	  }
+	  
+	  p.end {
+		text-align:right;
+		font-size:1.3em;
+		border-bottom:rgba(100,100,100,0.5) solid 1px;
+	  }
+	  
+	  h3.stagiere{
+		font-weight:bold;
+	  }
+	  p.stagiere{
+		border-bottom:1px solid black;
+		width:500px;
+	  }
+	
+	
+	/*FOOTER*/
+	  
+	footer{
+		padding:0px;
+		width:100%;
+		height:40px;
+		margin:auto;
+		border-top:2px rgba(0,0,0,0.5) ridge;
+		position:absolute;
+		left:0px;
+		
+	}
+	.imgcentre{
+		width:800px;
+		margin:auto;
+		padding:0px;
+		padding-top:5px;
+	}
+	footer img.cote{
+		margin-left:10%;
+		margin-right:10%;
+		display:inline;
+
+	}  
+	  
+	  
+

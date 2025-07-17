@@ -1,0 +1,139 @@
+/* CSS : Connexion */
+
+footer{
+	position:absolute;
+	bottom:8px;
+}
+
+
+div.round {
+
+-webkit-border-radius: 80px;
+-moz-border-radius: 80px;
+border-radius: 80px;
+transition: all 0.3s;
+
+}	
+
+.col-6, .col-4{
+	float:left;
+}
+
+h1{
+	font-size:2em;
+}
+
+@media (max-width: 1200px) {
+	div.main.container {
+		max-width: 900px!important;
+	}
+}
+
+@media (max-width: 1020px) {
+	div.main.container {
+		max-width: 88%!important;
+	}
+}
+
+input {
+	transition:all 0.3s;
+
+}
+
+input[name=mdp],input[name=noadm] {
+		-webkit-box-shadow: 0px 1px 3px rgba(118, 111, 88, 0.5);
+		-moz-box-shadow:    0px 1px 3px rgba(118, 111, 88, 0.5);
+		box-shadow:         0px 1px 3px rgba(118, 111, 88, 0.5);
+
+}
+
+div.main.row {
+		outline:none;
+		background-color:transparent;
+	  }
+	    	  
+	 
+.main{
+	width:1000px;
+	margin:0 auto;
+	padding-top:50px;
+}
+input[type=submit] {
+
+	width: 0; 
+	height: 0; 
+	border-bottom: 30px solid transparent;  /* left arrow slant */
+	border-top: 30px solid transparent; /* right arrow slant */
+	border-left: 50px solid #FFF; /* bottom, add background color here */
+	border-right:none;
+	background-color:transparent;
+	font-size: 0;
+	line-height: 0;
+	
+}
+
+div.round div.round:hover {
+	background-color:#999!important;
+
+}
+
+input[type=submit]:hover {
+
+	border-left-color:#000;
+
+}
+
+input[type=submit]:active {
+
+	border-left-color:#111;
+
+}
+
+input[name=noadm] {	
+	width:430px;
+	height:50px;
+	margin:5px 0;
+	font-size:1.2em;
+	padding-left:65px;
+	color:grey;
+	letter-spacing:2px;
+
+	background-color:#bbb;
+	border:none;
+}
+
+input[name=noadm]:focus {
+
+	background-color:#999;
+}
+
+input[name=mdp] {
+	width:430px;
+	height:50px;
+	margin:5px 0;
+	font-size:1.2em;
+	padding-left:65px;
+	color:grey;
+	letter-spacing:2px;
+
+	background-color:#bbb;
+	border:none;
+}
+
+input[name=mdp]:focus {
+
+	background-color:#999;
+
+}
+
+input:focus
+{ 
+	outline: none;
+	color:black;
+}
+
+p.alert {
+	margin-top:25px;
+	margin-bottom:5px;
+
+}
